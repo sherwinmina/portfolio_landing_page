@@ -1,0 +1,65 @@
+// ---------------Variables--------------//
+$white: #FFFFFF;
+$highlight: #7ac483;
+$grey_background: #f2f1f8;
+$grey_copy: #b9b7c6;
+$dark_gray:#696969;
+
+// ---------------Global Styles--------------//
+body {
+    font-family: helvetica, sans-serif;;
+}
+.wrapper {
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+// ---------------Baner Styles-------------//
+#banner {
+    background-color: $dark_gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    header{
+        padding: 2 rem 0;
+
+    }
+
+    #logo {
+        color: $white;
+        font-weight: 700;
+        font-size: 1.35rem;
+        float: left;
+        margin: 0;
+    }
+
+    nav {
+        float: right;
+        a{
+            color: $white;
+            font-weight: 700;
+            text-decoration: none;
+            margin-left: 2rem;
+
+        }
+    }
+
+    .content {
+        padding: 2rem 0 6rem 0;
+        .title, .subtitle {
+            color: $white;
+            text-align: center;
+        }
+        .title {
+            font-size: 3.5rem;
+            margin: 0;
+        }
+        .sub_title {
+            font-weight: 400;
+            font-size: 1.35rem;
+            width: 500px;
+            margin:0;
+        }
+    }
+
+}
